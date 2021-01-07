@@ -1,0 +1,18 @@
+.btn {
+    -fx-background-color: 
+        #f0efeb,
+        linear-gradient(#a8dadc, #a8dadc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.btn:pressed {
+	-fx-background-color: #f1faee;  
+}
+
+.result{
+	-fx-border-color: black;
+}
